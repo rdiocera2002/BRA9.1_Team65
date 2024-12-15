@@ -11,11 +11,11 @@ cp -r static/* tempdir/static/.
 echo "FROM python" >> tempdir/Dockerfile
 echo "RUN pip install flask" >> tempdir/Dockerfile
 echo "RUN pip install requests" >> tempdir/Dockerfile
-echo "COPY  ./static /home/myapp/static/" >> tempdir/Dockerfile
-echo "COPY  ./templates /home/myapp/templates/" >> tempdir/Dockerfile
-echo "COPY  main.py /home/myapp/" >> tempdir/Dockerfile
+echo "COPY  ./static /home/BRA9.1_Team65/static/" >> tempdir/Dockerfile
+echo "COPY  ./templates /home/BRA9.1_Team65/templates/" >> tempdir/Dockerfile
+echo "COPY  main.py /home/BRA9.1_Team65/" >> tempdir/Dockerfile
 echo "EXPOSE 5000" >> tempdir/Dockerfile
-echo "CMD python3 /home/myapp/main.py" >> tempdir/Dockerfile
+echo "CMD python3 /home/BRA9.1_Team65/main.py" >> tempdir/Dockerfile
 
 cd tempdir
 

@@ -1,7 +1,7 @@
 import unittest
-import BreakoutRoomActivity
+import breakoutroom
 
-key = list(BreakoutRoomActivity.json_data.keys())[0]
+key = list(breakoutroom.json_data.keys())[0]
 
 class TestStringMethods(unittest.TestCase):
 
